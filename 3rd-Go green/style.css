@@ -1,0 +1,60 @@
+
+nav{
+    background-color: black;
+    color:white;
+    padding: 20px;
+}
+nav h1,li,ul{
+    display: inline;
+}
+ul{
+    margin-left: 60%;
+}
+li{
+    margin-right: 20px;
+    cursor: pointer;
+}
+nav li:hover{
+    color: yellow;
+}
+.intro{
+
+    background-color: yellowgreen;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:3px darkorange dotted;
+    animation-name: Heading;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes Heading {
+    from{
+        background-color: lightcoral;
+        color: yellow
+    }
+    to{
+        background-color: lightgreen;
+        color:darkblue;
+    }
+    
+}
+.content{
+    display: flex;
+    padding: 10px;
+    margin:10px;
+    border: 5px solid green;
+    background-color:lightgrey;
+ }
+ .content img{
+    justify-content: center;
+    align-items: center;
+}
+.content li{
+    padding-left: 20px;
+    display: block;
+    text-align: justify;
+}
+.content img{
+    border:2px solid yellow;
+}
+
